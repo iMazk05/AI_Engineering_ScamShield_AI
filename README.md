@@ -19,6 +19,13 @@ Phishing emails imitate trusted people or organisations to trick users into reve
 - **"Phishing Email Detection Model Using Deep Learning" (2023).** This study explores deep-learning methods for detecting phishing emails. Deep-learning approaches may require more computing resources and implementation effort, so this project will begin with traditional machine-learning models. Source: https://www.mdpi.com/2079-9292/12/20/4261
 - **"An improved transformer-based model for detecting phishing, spam and ham emails: A large language model approach" (2024).** This study explores transformer-based methods for classifying phishing, spam, and legitimate emails. In comparison, this project will focus on binary classification and a straightforward web interface. Source: https://doi.org/10.1002/spy2.402
 
+## Engineering Gap / Limitation
+
+Existing research demonstrates that machine learning and deep learning can detect phishing emails. However, model performance may vary across datasets, and highly accurate predictions do not necessarily guarantee reliable detection of previously unseen phishing messages. Some approaches also require greater computational resources or provide limited explanations that ordinary users can understand.
+
+ScamShield AI will address this practical gap by developing a lightweight web application that compares traditional machine learning models, classifies email text, and highlights potential warning signs. The system will be evaluated using held-out test data to measure classification performance and identify false positives and false negatives. The initial prototype will focus on English-language email text rather than complete email infrastructure or live email account integration.
+
+
 ## Project Objectives
 
 - **O1:** To prepare and analyse a publicly available Kaggle phishing email dataset for binary classification of phishing/spam and legitimate emails.
